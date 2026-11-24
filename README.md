@@ -15,6 +15,9 @@ A small Flask web page that displays “Hello from Suzanne.”
     role-based permissions.
   - The goal is to use AI-assisted development and low-code tools to quickly
     build an MVP that reduces administration and improves delivery operations.
+- `/contact` provides a name, email, and message form. The server rejects
+  missing fields and invalid email addresses, and displays a confirmation for
+  valid submissions. Messages are not stored.
 
 ## Install
 
